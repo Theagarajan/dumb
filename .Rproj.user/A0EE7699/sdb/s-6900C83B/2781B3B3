@@ -1,0 +1,16 @@
+{
+    "contents" : "BMI Calculator\n========================================================\nauthor: Theagarajan\ndate: Oct 25th 2015\n\nSimply Shiny App for BMI Calculator\n========================================================\n\nBMI Calculator App has two inputs namely \n1. Height in cms.\n2. Weight in kgs.\n\nInput Widgets\n========================================================\nInputs are collected by two Sliders.\n\n    sliderInput(\"kgs\",\n                \"Weight in kgs\",\n                min = 1,\n                max = 250,\n                value = 60),\n    sliderInput(\"cms\",\n                \"Height in cms\",\n                min = 1,\n                max = 300,\n                value = 180)\n    \nInput is provided in slider format,so that user can change the weight to see whether they can achieve normal weight by reducing or increasing weight. \n\nOutput\n========================================================\n\nBMI(Body Mass Index) is an approximate measure for calculating the health of a person.\n\nIt is Weight/Height^2\n\nWeight should in kgs and Height should be in meters.\n\nExample\n========================================================\n\nBMI of a person with 78 kgs in weight and 170 cm in height is the following.\n\n```{r}\nHeight = 170\nWeight = 78\nBMI = Weight/(Height/100)^2\nBMI \n```\n\nThe Application link \n\nhttps://theagarajan.shinyapps.io/BMIcalc\n\n\n",
+    "created" : 1445775796665.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1984156844",
+    "id" : "2781B3B3",
+    "lastKnownWriteTime" : 1445776682,
+    "path" : "E:/machine learning/Pratical Machine Learning/BMIcalc_pres/BMIcalculator.Rpres",
+    "project_path" : "BMIcalculator.Rpres",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_presentation"
+}
